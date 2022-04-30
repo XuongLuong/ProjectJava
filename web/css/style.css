@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+li {
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    height:  44px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    height: 60px;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li ,a{
+    color:white;
+    font-size: 18px;
+}
+
+/*===============================TPHCM=======================*/
+nav ul li:nth-child(3) button{
+    height:30px;
+    padding: 0 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transform: all 0.5s ease;
+    margin-left: 40px;
+}
+nav ul li:nth-child(3) button:hover{
+    background-color: red;
+}
+
+/*==============================TÌM KIẾM============================================*/
+nav ul li:nth-child(2){
+    position: relative;
+}
+nav ul li:nth-child(2) input{
+    height: 32px;
+    width: 200%;
+    border-radius: 5px;
+    border: none;
+}
+nav ul li:nth-child(2) i{
+    position: absolute;
+    font-size: 15px;
+    right: 12px;
+    color: black;
+    line-height: 30px;
+}
+
+/*=================================GIỎ HÀNG=========================================*/
+nav ul li:nth-child(4) button{
+    height:30px;
+    padding: 0 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transform: all 0.5s ease;
+}
+nav ul li:nth-child(4) button:hover{
+    background-color: red;
+}
+
+/*================================TƯ VẤN=======================================*/
+nav ul li:nth-child(5) button{
+    height:30px;
+    padding: 0 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transform: all 0.5s ease;
+}
+nav ul li:nth-child(5) button:hover{
+    background-color: red;
+}
+
+/*================================HỎI ĐÁP======================================*/
+nav ul li:nth-child(6) button{
+    height:30px;
+    padding: 0 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transform: all 0.5s ease;
+}
+nav ul li:nth-child(6) button:hover{
+    background-color: red;
+}
+
+/*===========================ĐƯỜNG DÂY NÓNG=====================================*/
+nav ul li:nth-child(7) button{
+    height:30px;
+    padding: 0 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transform: all 0.5s ease;
+}
+nav ul li:nth-child(7) button:hover {
+    background-color: red;
+}
+
+/*=========================KHÁC=================================================*/
+nav ul li:nth-child(8) button{
+    height:30px;
+    padding: 0 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transform: all 0.5s ease;
+}
+nav ul li:nth-child(8) button:hover{
+    background-color: red;
+}
+
+/*==============================MENU================================*/
+.MENU{
+    background-color: rgb(221, 221, 18);
+    padding: 0px 0;
+    height:  50px;
+    max-width: 1700px;
+    margin: auto;
+}
+.MENU ul{
+    display: flex;
+    justify-content: space-between;
+}
+.MENU ul li a{
+    color: black;
+    font-size: 18px;
+}
+.MENU ul li a i{
+    margin-right: 6px;
+    font-size: 16px;
+}
+/*=================================ĐIỆN THOẠI========================*/
+.MENU ul li:nth-child(1) button{
+    height:50px;
+    width: 130px;
+    padding: 0 0px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    transform: all 0.5s ease;
+}
+.MENU ul li:nth-child(1) button:hover{
+    background-color: white;
+}
+
+/*=================================MACBOOK========================*/
+.MENU ul li:nth-child(2) button{
+    height:50px;
+    width:130px;
+    padding: 0 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    transform: all 0.5s ease;
+}
+.MENU ul li:nth-child(2) button:hover{
+    background-color: white;
+}
+
+/*=================================IPAD========================*/
+.MENU ul li:nth-child(4) button{
+    height:50px;
+    width:130px;
+    padding: 0 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    transform: all 0.5s ease;
+}
+.MENU ul li:nth-child(4) button:hover{
+    background-color: white;
+}
+
+/*=================================APPLE WATCH========================*/
+.MENU ul li:nth-child(5) button{
+    height:50px;
+    width:130px;
+    padding: 0 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    transform: all 0.5s ease;
+}
+.MENU ul li:nth-child(5) button:hover{
+    background-color: white;
+}
+
+/*=================================PHỤ KIỆN========================*/
+.MENU ul li:nth-child(3) button{
+    height:50px;
+    width:130px;
+    padding: 0 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    transform: all 0.5s ease;
+}
+.MENU ul li:nth-child(3) button:hover{
+    background-color: white;
+}
+/*==========================MENU PHỤ KIỆN=======================*/
+.MENU-CON ul li{
+    position: relative;
+}
+.menuPhuKien {
+    position: absolute;
+    background-color: whitesmoke;
+    width:500px;
+    height:auto;
+    left:0;
+    top:100%;   
+    padding: 12px;
+    display:none;
+    z-index: 10;
+}
+.menuPhuKien  ul {
+    display: flex;
+    flex-direction: row;
+}
+.menuPhuKien  ul li {
+    padding: 6px 0;
+}
+.menuPhuKien ul li:hover a {
+    color: rgb(151, 151, 16);
+} 
+.menuPhuKien ul li:hover {
+    background:none;
+}
+.MENU-CON ul li:hover .menuPhuKien {
+    display: block;
+}
+/*==========================introduce===========================*/
+.introduce {
+    padding: 20px 0;
+    height: 350px;
+}
+.introduce-noidung {
+    display: flex;
+    justify-content: space-between;
+}
+.introduce-noidung-left {
+    width:65%;
+}
+.introduce-noidung-left-top {
+    width:100%;
+    height:300px;
+    position: relative;
+    transition: all 0.5s ease;
+}
+/*.introduce-noidung-left-top:hover i {
+    opacity: 1;
+}*/
+
+.introduce-noidung-left-top img {
+    padding-left: 170px;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.introduce-noidung-left-bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: none;
+    height:50px;
+}
+.introduce-noidung-left-bottom li {
+    width:100%;
+    text-align: center;
+    cursor: pointer;
+    height:100%;
+    line-height: 38px;
+    position: relative;
+    padding: 6px 0;
+}
+.introduce-noidung-left-bottom li::before {
+    display: block;
+    content: "";
+    position: absolute;
+    height: 70%;
+    width:0;
+    background-color: black;
+    right:0px;
+    margin-left: 170px;
+}
+.introduce-noidung-left-bottom li.active {
+    border-top: 4px solid yellow;
+}
+.introduce-noidung-left-top-btn {
+    position:absolute;
+    top:50%;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.introduce-noidung-left-top-btn i{
+    color: yellow;
+    font-size: 32px;
+    height:50px;
+    width:30px;
+    background-color: red;
+    border-radius: 5px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+/*=====================right========================*/
+.introduce-noidung-right {
+    width:40%;
+}
+.introduce-noidung-right {
+    width:35%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.introduce-noidung-right li {
+    width:36%;
+    height:36%;
+    margin-bottom: 3px;
+}
+.introduce-noidung-right li img {
+    margin-right: 80%;
+    height: 165px;
+    width:165px;
+}
+
+/*===============danh sach chạy quảng cáo=============*/
+.introduce-noidung-left-top img {
+    position: relative;
+}
+.introduce-noidung-left-top a:nth-child(2) img {
+    transform: translate(100%);
+}
+.introduce-noidung-left-top a:nth-child(3) img {
+    transform: translate(200%);
+}
+.introduce-noidung-left-top a:nth-child(4) img {
+    transform: translate(300%);
+}
+.introduce-noidung-left-top a:nth-child(5) img {
+    transform: translate(400%);
+}
+.introduce-noidung-left-top-list {
+    position: relative;
+    overflow: hidden;
+}
+.introduce-noidung-left-top-list:hover i{
+    opacity: 1;
+}
+/*CSS Header*/
+header > h1 {
+    text-align: center;
+    font-size: 56px;
+    color: red;
+    margin-top: 50px;
+    animation: doimau ease-in .8s infinite;
+}
+@keyframes doimau {
+    from{
+        color: red;
+    }
+    to{
+        color:white;
+    }
+    
+} 
+
+/*CSS product */
+div.products{
+    display: flex;
+}
+div.product{
+    width: 25%;
+    border:1px solid white;
+    text-align: center;
+    border-radius: 4px; /*góc cong*/
+    padding:5px;
+    margin:1%;
+}
+div.product > img{
+    width:100%;
+}
+div.product >img:hover { /*nghiêng điện thoại*/
+    transform: skew(10deg);
+}
+div.info{
+    background:linear-gradient(black, grey);
+    padding:10px;
+    color: white;
+}
+h1.subject{
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    padding:10px;
+    border-radius: 30px 30px 0 0;
+    width: 25%;
+    margin-bottom: 0px; /*cho nó bằng hàng với đt*/
+}
+div.line{
+    width:100%;
+    height: 5px;
+    background-color: black; 
+}
+div.product button{
+    margin-top: 12px;
+    height: 30px;
+    padding: 0 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-color: red;
+
+}
+
+/*Cart*/
+.cart{
+    width:50%;
+    margin:auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.cart h2{
+    margin-bottom: 30px;
+
+}
+.cart table{
+    width:100%;
+}
+
+.cart table tr td{
+    border-bottom: 2px solid blue;
+    padding: 12px 0 ;
+}
+
+/*chỉnh card qua phải*/
+.cart{
+    position: fixed;
+    height: 100vh;
+    width: 500px;
+    right:0;
+    top: 0;
+    background-color: #ddd;
+    padding: 12px 20px;
+    right:-100%; /*biến mất dịch chuyển vào trong*/
+}
+.cart button{
+    margin-top: 12px;
+    height: 30px;
+    padding: 0 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+}
+.cart-icon i{
+    cursor: pointer;
+    text-align: right;
+    font-size: 60px;
+    color: red;
+    margin-top: 30px;
+    margin-left: 90%;
+}
+.cart i{
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+/*CSS footer*/
+footer > ul>li {
+    list-style-type: none; /*mất đi dấu chắm*/
+    display: flex;
+}
+footer{
+    /*background-image: url(..//images/sun.jpg);*/
+    background-color: black;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+div.end{
+    color:blue;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
